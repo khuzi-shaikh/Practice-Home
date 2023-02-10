@@ -1,0 +1,10 @@
+.Form{
+    border: 2px solid black;
+    height: 680px;
+    width: 1000px;
+    margin-left: 270px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color:aliceblue;
+    box-shadow: 8px 8px 10px black;
+}

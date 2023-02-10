@@ -1,0 +1,14 @@
+.errorMsg{
+    color: red;
+}
+li:nth-child(odd){
+    color: red;
+    font-size: 50px;
+}
+li:nth-child(even){
+    color: green;
+    font-size: 50px;
+}
+#Button{
+    margin-top: 15px;
+}
