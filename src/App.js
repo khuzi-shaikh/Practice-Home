@@ -15,8 +15,8 @@ export function App() {
       {/* <MaterialForm /> */}
       {/* <InputForm/> */}
       {/* <ToDoList/> */}
-      {/* <BulbOnOff/> */}
-      <CounterTask/>
+      <BulbOnOff/>
+      {/* <CounterTask/> */}
     </div>
   );
 }

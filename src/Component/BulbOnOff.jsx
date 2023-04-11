@@ -19,7 +19,7 @@ export const BulbOnOff = () => {
         onClick={toggleButton}
         style={{
           backgroundColor: toggle ? "green" : "red",
-          color: "black",
+          color: "white",
         }}
         variant="contained"
         color="error"

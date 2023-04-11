@@ -28,9 +28,10 @@ export const ToDoList = () => {
       <br />
       <br />
       <br />
-      <input
+      <TextField
+        variant="standard"
         type="text"
-        placeholder="Search Bar"
+        label="Search Bar"
         onChange={(e) => handleFilter(e.target.value)}
       />
       <span> </span>
@@ -42,7 +43,7 @@ export const ToDoList = () => {
         value={text}
       />
       <span> </span>
-      <Button id="Button" onClick={handleButton}>
+      <Button id="Button" onClick={handleButton} variant="contained">
         Add
       </Button>
       <ul>
@@ -60,7 +61,9 @@ export const ToDoList = () => {
                   Delete
                 </Button>
               </li>
-              <button onClick={() => setText(item)}>Edit</button>
+              <Button onClick={() => setText(item)} variant="outlined">
+                Edit
+              </Button>
             </div>
           );
         })}
